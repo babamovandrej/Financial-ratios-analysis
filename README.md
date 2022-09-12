@@ -8,7 +8,7 @@ The package relies on already established ratios, commonly used in the financial
 pip install financial-ratio-analysis
 
 ```
-###After installing the package, you will need to import it in a python environment. After doing so, you can start divinng into company specifications. You can do this by implementing the following code snippet:
+After installing the package, you will need to import it in a python environment. After doing so, you can start divinng into company specifications. You can do this by implementing the following code snippet:
 
 ```
 import ratio_analysis
@@ -16,7 +16,7 @@ import ratio_analysis
 company1 = ratio_analysis.Company_Analysis("company_name",year_of_analysis)
 
 ```
-###or by using a more direct approach
+or by using a more direct approach
 
 ```
 from ratio_analysis import Company_Analysis
