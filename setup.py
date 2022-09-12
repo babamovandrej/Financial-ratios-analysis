@@ -12,7 +12,7 @@ DESCRIPTION = 'Financial Statement Analysis Tool'
 LONG_DESCRIPTION = 'A package allowing users to compute ratios needed for financial statement analysis'
 
 setup(
-    name="ratioanalysistool",
+    name="ratio_analysis",
     version="0.0.1",
     author="Andrej Babamov",
     author_email="andrejbabamov@gmail.com",

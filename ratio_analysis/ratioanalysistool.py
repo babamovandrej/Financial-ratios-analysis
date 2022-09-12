@@ -111,7 +111,7 @@ class Company_Analysis:
             self.average_accounts_receivables = average_accounts_receivables,
             self.average_capital_employed = average_capital_employed,
             self.supplier_purchases = supplier_purchases,
-            self.average_accounts_receivables
+            self.average_accounts_payables = average_accounts_payables
 
         def inventory_turnover(self):
             inventory_turnov = (self.cogs/self.average_inventory)
