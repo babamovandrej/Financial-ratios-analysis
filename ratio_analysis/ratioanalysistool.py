@@ -1,4 +1,4 @@
-class Company():
+class Company_Analysis:
 
     def __init__(self, name, year):
         self.name = name
@@ -21,7 +21,7 @@ class Company():
 
         def return_on_equity(self):
             roe = (self.net_income / self.total_stockholders_equity)*100
-            return roe
+            return str(roe)+'%'
 
         def current_ratio(self):
             curr_ratio = self.total_current_assets/self.total_current_liabilities
@@ -48,11 +48,11 @@ class Company():
 
         def debt_to_equity(self):
             d_t_e = self.total_liabilities/self.total_stockholders_equity
-            return round(d_t_e, 3)
+            return str(d_t_e)+'%'
 
         def debt_to_assets(self):
             d_t_a = self.total_liabilities/self.total_assets
-            return round(d_t_a, 3)
+            return str(d_t_a)+'%'
 
         def financial_leverage_ratio(self):
             f_l_r = self.total_assets / self.total_stockholders_equity
